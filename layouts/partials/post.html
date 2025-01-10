@@ -27,11 +27,11 @@
                     class="no-wrap">
                     {{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</relative-time>
 
-                  {{ if .GitInfo }}
+                  {{ if .Site.Params.lastmod }}
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="{{ .GitInfo.AuthorDate "Mon, 02 Jan 2006 15:04:05 -0700" }}"
+                  Modified <relative-time datetime="{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}"
                     class="no-wrap">
-                    {{ .GitInfo.AuthorDate "Mon, 02 Jan 2006 15:04:05 -0700" }}</relative-time>
+                    {{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</relative-time>
                   {{ end }}
                 </div>
               </div>
