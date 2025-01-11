@@ -180,7 +180,10 @@ pygmentsUseClasses = true
   headerIcon = "/images/GitHub-Mark-Light-32px.png"
   location = "China"
   enableGitalk = true
+<<<<<<< HEAD
   enableGitInfo = true
+=======
+>>>>>>> 9cb8c4c882d9754c85458e0961a57d747f609f97
   custom_css = ["css/custom.css"]
   custom_js = ["js/custom.js"]
 
